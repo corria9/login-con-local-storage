@@ -17,7 +17,7 @@ logInForm.addEventListener('submit', (e) => {
     }
     alert(`Bienvenido ${validUser.name}`); // Muestra el mensaje de bienvenida con el nombre de usuario
     localStorage.setItem('login_success', JSON.stringify(validUser));
-    window.location.href = 'index.html'; // Redirige al usuario a index.html después de iniciar sesión
+    window.location.href = 'front-end/components/home/home.html'; // Redirige al usuario a index.html después de iniciar sesión
 });
 
 // Ejemplo de cómo guardar un nuevo usuario en localStorage
